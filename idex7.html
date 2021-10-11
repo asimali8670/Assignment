@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <title>Find the outerHeight and outerWidth of an element</title>
+<style>
+  div {
+    width: 90px;
+    height: 75px;
+    margin: 5px;
+    background-color:
+#F3E2A9
+  }
+  p {
+    margin-top:20px;
+    padding: 5px;
+    border: 2px solid 
+#666;
+  }
+  </style>
+  <script>
+      $(document).ready(function(){
+        $("p").text( "innerHeight:" +$("div").innerHeight()+" ::  innerWidth:" +$("div").innerWidth());
+
+      });
+  </script>
+</head>
+<body>
+<div></div>
+<p></p>
+ </body>
+</html>

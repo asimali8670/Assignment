@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <title>Add a class to an element</title>
+  <style>
+  p {
+    margin: 10px;
+    font-size: 22px;
+  }
+  .myclass {
+    color: 
+#FA5858;
+  }
+  .highlight {
+    background: 
+#CEF6F5;
+  }
+  </style>
+  <script>
+      $(document).ready(function(){
+          
+      $( "p" ).first().addClass( "highlight" );
+$( "p" ).last().addClass( "myclass" );
+      });
+
+  </script>
+</head>
+<body>
+<p>jQuery assignment</p>
+<p>second part.</p>
+ </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <title>Get the scroll top and left position of an element</title>
+  <style>
+   p {
+    margin-top:20px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid 
+#666;
+  }
+  </style>
+  <script>
+      $(document).ready(function(){
+        console.log("Scroll left, top position  of the  Paragraph are:"+$("p").scrollLeft()+',' +$("p").scrollTop());
+      });
+  </script>
+</head>
+<body>
+  <p> </p>
+</body>
+</html>
